@@ -28,7 +28,8 @@
         android:layout_height="@dimen/activity_vertical_margin"
         android:layout_below="@+id/textView_curPrayer"
         android:layout_alignStart="@+id/textView_emptyRoom"
-        android:layout_alignEnd="@+id/textView_emptyRoom" />
+        android:layout_alignEnd="@+id/textView_emptyRoom"
+        android:textSize="43sp"/>
 
 
 </RelativeLayout>
