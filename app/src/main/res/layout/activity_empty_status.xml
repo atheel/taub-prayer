@@ -9,18 +9,19 @@
     <TextView android:text="@string/Empty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="30sp"
         android:id="@+id/textView_emptyRoom"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <TextView android:text="CurPrayer"
-        android:id="@+id/textView_curPrayer"
+        android:id="@+id/textView_curPrayerName"
         android:textSize="43sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView_emptyRoom"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="114dp" />
+        android:layout_alignStart="@+id/textView_emptyRoom"
+        android:layout_marginTop="93dp" />
 
 
     <EditText
@@ -29,16 +30,57 @@
         android:inputType="time"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_below="@+id/textView_curPrayer"
-        android:layout_alignEnd="@+id/textView_curPrayer" />
+        android:layout_below="@+id/textView_curPrayerName"
+        android:paddingTop="5dp"
+        android:layout_alignStart="@+id/textView_curPrayerName" />
 
-    <TextView android:text="Next prayer"
-        android:id="@+id/textView_nextPrayer"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Next Prayer"
+        android:paddingTop="50dp"
+        android:id="@+id/textView_nextPrayer"
         android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prayer"
+        android:id="@+id/textView_Prayer"
+        android:layout_below="@+id/textView_nextPrayer"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/editText_nextPrayerTime"
+        android:layout_toEndOf="@+id/textView_nextPrayer"
+        android:layout_alignTop="@+id/textView_Prayer"
+        android:layout_alignBottom="@+id/textView_Prayer"
         android:layout_alignEnd="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Remains:"
+        android:id="@+id/textView_remains"
+        android:layout_below="@+id/textView_Prayer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/editText_timeRemains"
+        android:layout_alignTop="@+id/textView_remains"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
