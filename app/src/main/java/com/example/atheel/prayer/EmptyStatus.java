@@ -20,7 +20,7 @@ public class EmptyStatus extends ActionBarActivity {
         setContentView(R.layout.activity_empty_status);
         curPrayer=enums.PrayerName.Fajir;
         nextPrayer=enums.PrayerName.Thuhur;
-        text_curPrayer = (TextView) findViewById(R.id.textView_curPrayer);
+        text_curPrayer = (TextView) findViewById(R.id.textView_curPrayerName);
         text_nextPrayer = (TextView) findViewById(R.id.textView_nextPrayer);
     }
 
