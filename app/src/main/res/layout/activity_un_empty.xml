@@ -44,15 +44,6 @@
         android:checked="false"
         android:layout_marginBottom="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView_opened" /><![CDATA[
-
-    AnalogClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/analogClock"
-        android:layout_below="@+id/textView_period"
         android:layout_alignStart="@+id/textView_opened" />
-
-]]>
 
 </RelativeLayout>
