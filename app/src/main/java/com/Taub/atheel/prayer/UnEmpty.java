@@ -1,18 +1,11 @@
-package com.example.atheel.prayer;
+package com.Taub.atheel.prayer;
 
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Switch;
 import android.widget.TextView;
-
-
-import com.example.atheel.prayer.enums.Gender;
-
-import static com.example.atheel.prayer.enums.Gender.*;
-import static com.example.atheel.prayer.enums.PrayerName.Fajir;
 
 public class UnEmpty extends ActionBarActivity {
     TextView  text_gender;

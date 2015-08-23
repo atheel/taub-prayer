@@ -1,4 +1,4 @@
-package com.example.atheel.prayer;
+package com.Taub.atheel.prayer;
 
 /**
  * Created by HP on 19/08/2015.

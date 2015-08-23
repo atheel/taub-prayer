@@ -1,4 +1,4 @@
-package com.example.atheel.prayer;
+package com.Taub.atheel.prayer;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
